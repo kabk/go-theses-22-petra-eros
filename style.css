@@ -1,0 +1,258 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'SequelSans';
+    src: url('content/fonts/Sequel Sans Body Text Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITCGalliard';
+    src: url('content/fonts/ITC Galliard Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+  background-color: #ebebeb;
+  overflow-x: hidden;
+  font-family: 'SequelSans';
+}
+
+header {
+position: sticky;
+background-color: transparent;
+text-align: center;
+}
+
+.gradient {
+    background: linear-gradient(238deg, #ffffff, #c9cfd2, #f0f0f0);
+    background-size: 600% 600%;
+
+    -webkit-animation: gradient 21s ease infinite;
+    -moz-animation: gradient 21s ease infinite;
+    animation: gradient 21s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+/* #icon-1, #icon-2, #icon-3 {
+animation: rotate 1s linear infinite;
+animation-play-state: paused;
+animation-delay: calc(var(--scroll) * -1s);
+}
+
+@keyframes rotate {
+  to {transform: rotate(360deg);}
+} */
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: -0.1em;
+  line-height: 0.9em;
+}
+
+h2  {
+  text-transform: uppercase;
+  letter-spacing: -0.09em;
+  line-height: 1em;
+  font-weight: normal;
+  text-align: center;
+  /* margin-bottom: 1.5%; */
+}
+
+h3 {
+  letter-spacing: -0.08em;
+  line-height: 1em;
+}
+
+p {
+  font-family: 'SequelSans';
+  font-size: 1em;
+  letter-spacing: -0.07em;
+  line-height: 1.2em;
+  font-weight: normal;
+}
+
+.text-indent {
+  text-indent: 60px;
+}
+
+.italics {
+  font-family: 'ITCGalliard';
+  letter-spacing: -0.01em;
+}
+
+a {
+color: #dad9e4;
+text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+text-decoration: none;
+}
+
+a:hover {
+  color: #ececec;
+  text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+  text-decoration: none;
+}
+
+nav {
+  position: relative;
+  text-align: center;
+  padding-top: 10%;
+}
+
+#subtitle {
+  width:50%;
+}
+
+section {
+  padding-top: 8vw;
+  width: 60%;
+}
+
+#back-to-top {
+  position: fixed;
+  right: 0.5rem;
+  bottom: 0.5rem;
+  padding: 0.5rem;
+  border: none;
+  background-color: transparent;
+}
+
+#back-to-top img {
+  height: 2rem;
+}
+
+.hidden {
+  display: none;
+}
+
+#paragraph {
+  width: 70%;
+  text-align: justify;
+}
+
+blockquote {
+  font-family: 'SequelSans';
+  font-size: 1.5em;
+  letter-spacing: -0.07em;
+  line-height: 1.2em;
+  color: #969696;
+  font-weight: normal;
+  padding: 2%;
+  padding-left: 6%;
+  text-align: left;
+}
+
+#glossary {
+  width: 60%;
+  text-align: left;
+}
+
+#glossary h2 {
+  text-align: left;
+}
+
+@media screen and (min-width: 320px) {
+h1 {
+font-size: calc(12.5vw + 6 * ((100vw - 320px) / 680));
+}
+
+h2 {
+font-size: calc(7vw + 6 * ((100vw - 320px) / 680));
+}
+
+p{
+font-size: calc(1em + 6 * ((100vw - 320px) / 680));
+}
+
+blockquote {
+  font-size: calc(1em + 6 * ((100vw - 320px) / 680));
+}
+
+section {
+  width: 100%;
+}
+
+.footnotes {
+  default: "hide";
+}
+
+#paragraph {
+  width: 90%;
+  text-align: justify;
+}
+
+.italics {
+  font-family:
+}
+
+.text-indent {
+  text-indent: 20px;
+}
+
+#glossary {
+  width: 100%;
+}
+
+#subtitle {
+    width: 100%;
+}
+}
+
+@media screen and (min-width: 600px) {
+h1 {
+font-size: 11vw;
+  }
+
+h2 {
+font-size: 2.5vw;
+  }
+
+#subtitle {
+    width:50%;
+  }
+
+#glossary {
+    width: 70%;
+  }
+
+#paragraph {
+  width: 70%;
+  text-align: justify;
+  }
+
+p{
+font-size: calc(1em + 6 * ((100vw - 320px) / 680));
+}
+
+.text-indent {
+  text-indent: 30px;
+}
+
+blockquote {
+  font-size: calc(1em + 6 * ((100vw - 320px) / 680));
+}
+
+}
