@@ -68,6 +68,14 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/content/design/pill.gltf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/content/design/pill.gltf",
+		"oF": 0
+		},
 	"/content/design/pill.obj": {
 		"cB": 0,
 		"ft": 8192,
@@ -98,6 +106,91 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/content/fonts/Sequel Sans Body Text Book.woff",
+		"oF": 0
+		},
+	"/content/images/figure_01.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "/content/images/figure_01.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/content/images/figure_02.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "/content/images/figure_02.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/content/images/figure_03.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "/content/images/figure_03.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/content/images/figure_04.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "/content/images/figure_04.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/content/images/figure_05.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "/content/images/figure_05.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/content/images/figure_panopt.jpeg": {
+		"ft": 16384,
+		"iS": 560428,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/images/figure_panopt.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/content/images/figure_panopt.jpg": {
+		"ft": 16384,
+		"iS": 849539,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/content/images/figure_panopt.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/content/images/pill.gltf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/content/images/pill.gltf",
 		"oF": 0
 		},
 	"/dependencies/bigfoot-default.css": {
@@ -145,6 +238,72 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dependencies/custom-element-polyfill.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dependencies/custom-element-polyfill.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dependencies/model-element.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dependencies/model-element.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dependencies/three-gltf-loader.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dependencies/three-gltf-loader.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dependencies/three-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dependencies/three-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dependencies/three-obj-loader.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dependencies/three-obj-loader-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dependencies/three.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dependencies/three-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/footnotes-min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -182,17 +341,6 @@
 		"oA": 0,
 		"oAP": "/index.html",
 		"oF": 0
-		},
-	"/p5js-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/p5js-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
 		},
 	"/script-min.js": {
 		"bF": 0,

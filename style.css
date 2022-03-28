@@ -5,19 +5,19 @@
 }
 
 @font-face {
-    font-family: 'SequelSans';
-    src: url('content/fonts/Sequel Sans Body Text Book.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'SequelSans';
+  src: url('content/fonts/Sequel Sans Body Text Book.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'ITCGalliard';
-    src: url('content/fonts/ITC Galliard Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'ITCGalliard';
+  src: url('content/fonts/ITC Galliard Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 body {
@@ -27,53 +27,72 @@ body {
 }
 
 header {
-position: sticky;
-background-color: transparent;
-text-align: center;
+  position: fixed;
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0,rgba(255,255,255,0.85) 30%, rgba(255,255,255,0.7) 45%, rgba(255,255,255,0.3) 75%, rgba(255,255,255,0) 100%);
+  text-align: center;
+  z-index: 3;
 }
 
-.gradient {
-    background: linear-gradient(238deg, #ffffff, #c9cfd2, #f0f0f0);
-    background-size: 600% 600%;
+.model {
+  position: absolute;
+  top:0;
+  left: 0;
+      width: 400px;
+      height: 400px;
+  transform: translateZ(-200px) rotateY(45deg);
+    }
 
-    -webkit-animation: gradient 21s ease infinite;
-    -moz-animation: gradient 21s ease infinite;
-    animation: gradient 21s ease infinite;
+.gradient {
+  background: linear-gradient(238deg, #ffffff, #c9cfd2, #f0f0f0);
+  background-size: 600% 600%;
+  -webkit-animation: gradient 21s ease infinite;
+  -moz-animation: gradient 21s ease infinite;
+  animation: gradient 21s ease infinite;
 }
 
 @-webkit-keyframes gradient {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+  0% {background-position: 0% 50%}
+
+  50% {background-position: 100% 50%}
+
+  100% {background-position: 0% 50%}
 }
+
 @-moz-keyframes gradient {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+  0% {background-position: 0% 50%}
+
+  50% {background-position: 100% 50%}
+
+  100% {background-position: 0% 50%}
 }
+
 @keyframes gradient {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+  0% {background-position: 0% 50%}
+
+  50% {background-position: 100% 50%}
+
+  100% {background-position: 0% 50%}
 }
 
-/* #icon-1, #icon-2, #icon-3 {
-animation: rotate 1s linear infinite;
-animation-play-state: paused;
-animation-delay: calc(var(--scroll) * -1s);
-}
-
-@keyframes rotate {
-  to {transform: rotate(360deg);}
-} */
 
 h1 {
+  font-size: 12.5vw;
+  text-align: center;
   text-transform: uppercase;
   letter-spacing: -0.1em;
   line-height: 0.9em;
 }
 
-h2  {
+#shrinkTitle {
+	transition: ease-in-out 300ms;
+}
+
+#hiddenTitle {
+  width: 50%;
+	transition: ease-in-out 300ms;
+}
+
+h2 {
   text-transform: uppercase;
   letter-spacing: -0.09em;
   line-height: 1em;
@@ -105,31 +124,87 @@ p {
 }
 
 a {
-color: #dad9e4;
-text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
-text-decoration: none;
+  color: #dad9e4;
+  text-shadow: -1px -1px 1px rgba(255, 255, 255, .1), 1px 1px 1px rgba(0, 0, 0, .5);
+  text-decoration: none;
 }
 
 a:hover {
   color: #ececec;
-  text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+  text-shadow: -1px -1px 1px rgba(255, 255, 255, .1), 1px 1px 1px rgba(0, 0, 0, .5);
   text-decoration: none;
 }
 
 nav {
   position: relative;
+  top: 20vw;
   text-align: center;
   padding-top: 10%;
 }
 
-#subtitle {
-  width:50%;
+main {
+  position: relative;
+  top: 25vw;
 }
 
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: black; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+padding: 1%; /* Some padding */
+border-radius: 50%;
+}
+
+#myBtn:hover {
+  background-color: transparent;
+  color: black;
+  border: 2px solid black;
+}
 section {
   padding-top: 8vw;
   width: 60%;
 }
+
+figure {
+  width: 90%;
+}
+
+figure img {
+  position: relative;
+  width: 35%;
+}
+
+.landscape-img {
+  width: 100%;
+}
+
+figcaption {
+  position: relative;
+  left: 15%;
+  font-family: 'SequelSans';
+  font-size: 1em;
+  letter-spacing: -0.07em;
+  line-height: 1.2em;
+  text-align: left;
+  padding-top: 1%;
+  width: 75%;
+}
+
+.model {
+  position: absolute;
+  top:0;
+  left: 0;
+      width: 400px;
+      height: 400px;
+  transform: translateZ(-200px) rotateY(45deg);
+    }
 
 #back-to-top {
   position: fixed;
@@ -148,7 +223,7 @@ section {
   display: none;
 }
 
-#paragraph {
+.paragraph {
   width: 70%;
   text-align: justify;
 }
@@ -175,84 +250,183 @@ blockquote {
 }
 
 @media screen and (min-width: 320px) {
-h1 {
-font-size: calc(12.5vw + 6 * ((100vw - 320px) / 680));
-}
+  h1 {
+    font-size: calc(12.5vw + 6 * ((100vw - 320px) / 680));
+  }
 
-h2 {
-font-size: calc(7vw + 6 * ((100vw - 320px) / 680));
-}
+  h2 {
+    font-size: calc(7vw + 6 * ((100vw - 320px) / 680));
+  }
 
-p{
-font-size: calc(1em + 6 * ((100vw - 320px) / 680));
-}
+  p {
+    font-size: calc(1em + 6 * ((100vw - 320px) / 680));
+  }
 
-blockquote {
-  font-size: calc(1em + 6 * ((100vw - 320px) / 680));
-}
+  blockquote {
+    font-size: calc(1em + 6 * ((100vw - 320px) / 680));
+  }
 
-section {
-  width: 100%;
-}
-
-.footnotes {
-  default: "hide";
-}
-
-#paragraph {
-  width: 90%;
-  text-align: justify;
-}
-
-.italics {
-  font-family:
-}
-
-.text-indent {
-  text-indent: 20px;
-}
-
-#glossary {
-  width: 100%;
-}
-
-#subtitle {
+  section {
     width: 100%;
-}
+  }
+
+  figure {
+    width: 90%;
+  }
+
+  figure img {
+    position: relative;
+    width: 100%;
+  }
+
+  .landscape-img {
+    width: 100%;
+    height: auto;
+  }
+
+  figcaption {
+    color: #969696;
+    position: relative;
+    width: 90%;
+    font-family: 'SequelSans';
+    font-size: calc(1em + 6 * ((100vw - 320px) / 680));
+    letter-spacing: -0.07em;
+    line-height: 1.2em;
+    text-align: left;
+    padding-top: 1%;
+    /* width: 75%; */
+  }
+
+  .footnotes {
+    default: "hide";
+  }
+
+  .paragraph {
+    width: 90%;
+    text-align: justify;
+  }
+
+  .italics {
+    font-family: 'ITCGalliard';
+  }
+
+  .text-indent {
+    text-indent: 20px;
+  }
+
+  #glossary {
+    width: 100%;
+  }
+
+  #subtitle {
+    width: 100%;
+  }
+
+  .model {
+    animation: spin 10s linear infinite;
+   }
+
+   @keyframes spin {
+     to {
+       transform: rotateY(1turn)
+     }
+   }
+
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 2vw; /* Place the button at the bottom of the page */
+    right: 2vw; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    background-color: black; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 1%; /* Some padding */
+  border-radius: 50%;
+  }
+
+  #myBtn:hover {
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+  }
 }
 
 @media screen and (min-width: 600px) {
-h1 {
-font-size: 11vw;
+  h1 {
+    font-size: 11vw;
   }
 
-h2 {
-font-size: 2.5vw;
+  h2 {
+    font-size: 2.5vw;
   }
 
-#subtitle {
-    width:50%;
+  #subtitle {
+    width: 50%;
   }
 
-#glossary {
+  #glossary {
     width: 70%;
   }
 
-#paragraph {
-  width: 70%;
-  text-align: justify;
+  .paragraph {
+    width: 70%;
+    text-align: justify;
   }
 
-p{
-font-size: calc(1em + 6 * ((100vw - 320px) / 680));
-}
+  p {
+    font-size: calc(1em + 6 * ((100vw - 320px) / 680));
+  }
 
-.text-indent {
-  text-indent: 30px;
-}
+  figure {
+    width: 70%;
+  }
 
-blockquote {
-  font-size: calc(1em + 6 * ((100vw - 320px) / 680));
-}
+  .landscape-img {
+    width: 100%;
+  }
 
+  figure img {
+    position: relative;
+    width: 35%;
+  }
+
+  figcaption {
+    position: relative;
+    /* left: 15%; */
+    font-family: 'SequelSans';
+    font-size: calc(1em + 6 * ((100vw - 320px) / 680));
+    letter-spacing: -0.07em;
+    line-height: 1.2em;
+    text-align: left;
+    padding-top: 1%;
+    width: 75%;
+  }
+
+  .text-indent {
+    text-indent: 30px;
+  }
+
+  blockquote {
+    font-size: calc(1em + 6 * ((100vw - 320px) / 680));
+  }
+
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 2vw; /* Place the button at the bottom of the page */
+    right: 2vw; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    background-color: black; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 1%; /* Some padding */
+  border-radius: 50%;
+  }
+
+  #myBtn:hover {
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+  }
 }

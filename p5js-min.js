@@ -1,1 +1,0 @@
-var bigfoot=$.bigfoot({deleteOnUnhover:!1,preventPageScroll:!1,hoverDelay:250});

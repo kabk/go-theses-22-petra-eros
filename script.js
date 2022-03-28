@@ -1,29 +1,27 @@
-ScrollReveal().reveal('#title');
-ScrollReveal().reveal('#subtitle', { delay: 500 });
-ScrollReveal().reveal('#intro', { delay: 1500 });
-
-window.addEventListener('scroll', () => {
-  document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
-}, false);
 
 
-const showOnPx = 100;
-const backToTopButton = document.querySelector("#back-to-top")
+var mybutton = document.getElementById("myBtn");
 
-const scrollContainer = () => {
-  return document.documentElement || document.body;
-};
-
-document.addEventListener("scroll", () => {
-  if (scrollContainer().scrollTop > showOnPx) {
-    backToTopButton.classList.remove("hidden")
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("shrinkTitle").style.fontSize = "4vw";
+    document.getElementById("hiddenTitle").style.display = "none";
+    mybutton.style.display = "block";
   } else {
-    backToTopButton.classList.add("hidden")
+    document.getElementById("shrinkTitle").style.fontSize = "12.5vw";
+    document.getElementById("hiddenTitle").style.display = "block";
+    mybutton.style.display = "none";
   }
-})
+}
 
-const goToTop = () => {
-  document.body.scrollIntoView({
-    behavior: "smooth",
-  });
-};
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+
+ScrollReveal().reveal('header', {delay: 200});
+ScrollReveal().reveal('nav', { delay: 700 });
