@@ -17,16 +17,160 @@
 		"oAP": "/.gitattributes",
 		"oF": 0
 		},
-	"/content/design/braintexture.jpeg": {
-		"ft": 16384,
-		"iS": 373080,
-		"jF": 0,
+	"/content/design/favicon/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 4391,
 		"oA": 0,
-		"oAP": "/content/design/braintexture.jpg",
+		"oAP": "/content/design/favicon/android-chrome-192x192.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
+		},
+	"/content/design/favicon/android-chrome-512x512.png": {
+		"ft": 32768,
+		"iS": 24493,
+		"oA": 0,
+		"oAP": "/content/design/favicon/android-chrome-512x512.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/content/design/favicon/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 4126,
+		"oA": 0,
+		"oAP": "/content/design/favicon/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/content/design/favicon/browserconfig.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/content/design/favicon/browserconfig.xml",
+		"oF": 0
+		},
+	"/content/design/favicon/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 986,
+		"oA": 0,
+		"oAP": "/content/design/favicon/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/content/design/favicon/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1668,
+		"oA": 0,
+		"oAP": "/content/design/favicon/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/content/design/favicon/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/content/design/favicon/favicon.ico",
+		"oF": 0
+		},
+	"/content/design/favicon/mstile-144x144.png": {
+		"ft": 32768,
+		"iS": 3361,
+		"oA": 0,
+		"oAP": "/content/design/favicon/mstile-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/content/design/favicon/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 3227,
+		"oA": 0,
+		"oAP": "/content/design/favicon/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/content/design/favicon/mstile-310x150.png": {
+		"ft": 32768,
+		"iS": 3383,
+		"oA": 0,
+		"oAP": "/content/design/favicon/mstile-310x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/content/design/favicon/mstile-310x310.png": {
+		"ft": 32768,
+		"iS": 12721,
+		"oA": 0,
+		"oAP": "/content/design/favicon/mstile-310x310.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/content/design/favicon/mstile-70x70.png": {
+		"ft": 32768,
+		"iS": 2351,
+		"oA": 0,
+		"oAP": "/content/design/favicon/mstile-70x70.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/content/design/favicon/safari-pinned-tab.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "/content/design/favicon/safari-pinned-tab.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/content/design/favicon/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/content/design/favicon/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/content/design/favicon/site.webmanifest": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/content/design/favicon/site.webmanifest",
+		"oF": 0
 		},
 	"/content/design/icon_1.svg": {
 		"ft": 2097152,
@@ -58,32 +202,6 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/content/design/icon_4.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/content/design/icon_4.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/content/design/pill.gltf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/content/design/pill.gltf",
-		"oF": 0
-		},
-	"/content/design/pill.obj": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/content/design/pill.obj",
-		"oF": 0
-		},
 	"/content/fonts/ITC Galliard Italic.woff": {
 		"cB": 0,
 		"ft": 8192,
@@ -107,6 +225,49 @@
 		"oA": 0,
 		"oAP": "/content/fonts/Sequel Sans Body Text Book.woff",
 		"oF": 0
+		},
+	"/content/images/figure_00.png": {
+		"ft": 32768,
+		"iS": 70311,
+		"oA": 0,
+		"oAP": "/content/images/figure_00.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/content/images/figure_002.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/content/images/figure_002.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/content/images/figure_00_1.png": {
+		"ft": 32768,
+		"iS": 659064,
+		"oA": 0,
+		"oAP": "/content/images/figure_00_1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/content/images/figure_00_2.png": {
+		"ft": 32768,
+		"iS": 29085,
+		"oA": 0,
+		"oAP": "/content/images/figure_00_2.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"/content/images/figure_01.png": {
 		"ft": 32768,
@@ -163,6 +324,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/content/images/figure_06.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "/content/images/figure_06.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/content/images/figure_panopt.jpeg": {
 		"ft": 16384,
 		"iS": 560428,
@@ -184,14 +356,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
-		},
-	"/content/images/pill.gltf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/content/images/pill.gltf",
-		"oF": 0
 		},
 	"/dependencies/bigfoot-default.css": {
 		"aP": 1,
@@ -234,72 +398,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/dependencies/bigfoot.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dependencies/custom-element-polyfill.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dependencies/custom-element-polyfill.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dependencies/model-element.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dependencies/model-element.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dependencies/three-gltf-loader.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dependencies/three-gltf-loader.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dependencies/three-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dependencies/three-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dependencies/three-obj-loader.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dependencies/three-obj-loader-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dependencies/three.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dependencies/three-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -393,7 +491,7 @@
 	"creationDate": 666523320.46797895,
 	"displayValue": "go-theses-22-petra-eros",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_magenta",
+	"iconImageName": "/content/design/favicon/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {

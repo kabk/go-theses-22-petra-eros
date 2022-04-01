@@ -1,10 +1,12 @@
+// ScrollReveal().reveal('header', {delay: 200});
+// ScrollReveal().reveal('.intro', { delay: 10 00 });
+// ScrollReveal().reveal('nav', { delay: 700 });
 
-
-var mybutton = document.getElementById("myBtn");
+let mybutton = document.getElementById("myBtn");
 
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+  if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
     document.getElementById("shrinkTitle").style.fontSize = "4vw";
     document.getElementById("hiddenTitle").style.display = "none";
     mybutton.style.display = "block";
@@ -21,7 +23,3 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-
-
-ScrollReveal().reveal('header', {delay: 200});
-ScrollReveal().reveal('nav', { delay: 700 });
