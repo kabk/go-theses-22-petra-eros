@@ -7,7 +7,7 @@ let mybutton = document.getElementById("myBtn");
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
-    document.getElementById("shrinkTitle").style.fontSize = "4vw";
+    document.getElementById("shrinkTitle").style.fontSize = "3.5vw";
     document.getElementById("hiddenTitle").style.display = "none";
     mybutton.style.display = "block";
   } else {
@@ -16,7 +16,6 @@ function scrollFunction() {
     mybutton.style.display = "none";
   }
 }
-
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
